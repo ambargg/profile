@@ -70,6 +70,7 @@ p {
   margin: 16px auto;
   border-radius: 8px;
   background: #a3d2ca;
+  box-shadow: -7px -8px 0px #94bfb8, 8px 9px 0px #b2e5dc;
 }
 
 .table {
