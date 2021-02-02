@@ -4,7 +4,7 @@
 body {
 /*  color: rgb(60, 60, 60);*/
 /*  color: #1f1f1f;*/
-  background-color: #ffe0a7;
+  background-color: #f0e5d8;
 }
 
 .container {
@@ -13,31 +13,31 @@ body {
 }
 
 img {
-  width: 150px;
+  width: 100px;
   border-radius: 50%;
 }
 
 h1 {
   font-family: 'Signika Negative', sans-serif;
-  color: #21243d;
+  color: #350b40;
 }
 
-h2, h3 {
+h2  {
   font-family: 'Signika Negative', sans-serif;
   font-size: 16px;
-  color: #21243d;
+  color: #350b40;
   margin: 0;
 }
 
 h3 {
   font-family: 'Signika Negative', sans-serif;
   font-size: 12px;
-  color: #21243d;
+  color: #350b40;
 }
 
 p {
   font-family: 'Fira Sans', sans-serif;
-  color: #21243d;
+  color: #350b40;
 }
 
 .card > p {
@@ -48,10 +48,17 @@ p {
 .btn {
   font-size: 10px;
   padding: 10px;
-  background-color: #f45311;
   border-radius: 5px;
-  color: white;
+  color: #f8f1f1;
   text-decoration: none;
+  transition: 0.2s;
+  box-shadow:  3px 3px 0px #94bfb8,
+             -3px -3px 0px #b2e5dc;
+}
+
+.btn:hover {
+  box-shadow:  -3px -3px 0px #94bfb8,
+             3px 3px 0px #b2e5dc;
 }
 
 .text-center {
@@ -59,11 +66,10 @@ p {
 }
 
 .card {
-  background: #f8edd9;
   padding: 20px;
-  margin: 10px auto;
-  border-radius: 3px;
-  box-shadow: 2px 2px 3px rgba(200, 200, 200, 0.5);
+  margin: 16px auto;
+  border-radius: 8px;
+  background: #a3d2ca;
 }
 
 .table {
@@ -82,7 +88,7 @@ ul#horizontal-list {
   }
 
   li > a {
-    color: #f45311;
+    color: #351f39;
     font-size: 20px;
   }
 
